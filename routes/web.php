@@ -12,4 +12,4 @@ Route::get('lang/{locale}', function ($locale) {
         session(['locale' => $locale]);
     }
     return redirect()->back();
-})->name('lang');
+})->name('lang'); 
